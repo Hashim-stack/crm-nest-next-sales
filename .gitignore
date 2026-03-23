@@ -1,0 +1,42 @@
+---
+# .gitignore 
+
+Create `.gitignore` in root:
+
+```gitignore
+# dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# next.js
+.next/
+out/
+
+# nestjs build
+dist/
+
+# env files
+.env
+.env.local
+.env.development
+.env.production
+
+# logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# coverage
+coverage/
+
+# misc
+*.pem
